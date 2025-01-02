@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignore temporary files
+*~
+
+# Ignore macOS system files
+*.DS_Store
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore temporary directories for debugging extension samples
+_debug/
+_metadata/
+dist/
+
+# Ignore Vim swap files
+*.swp
