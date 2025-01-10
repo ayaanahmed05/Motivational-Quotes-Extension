@@ -42,7 +42,7 @@ h1 {
 }
 
 #quote-text {
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 #refresh-button {
@@ -55,6 +55,7 @@ h1 {
     width: 2.5rem; /* 32px */
 
     border-style: none;
+    border-color: var(--div-color);
     border-radius: 2.5rem; /* 16px */
 
     background-color: transparent;
@@ -68,6 +69,25 @@ h1 {
     background-color: grey;
 }
 
+#refresh-button:active {
+    border-style: solid;
+}
+
 #refresh-button svg {
     color: var(--text-color);
+}
+
+.api-text {
+    font-style: italic;
+    font-size: 0.5rem;
+    color: grey;
+}
+
+.api-text a {
+    text-decoration: none;
+    color: grey;
+}
+
+.api-text a:hover {
+    text-decoration: underline;
 }
